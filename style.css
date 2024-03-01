@@ -55,3 +55,31 @@ body {
     left: 0;
     width: 100%;
   }
+
+
+  @media (max-width: 768px) {
+    .header {
+      position: relative;
+    }
+  
+    .main {
+      height: auto;
+      padding-bottom: 80px;
+    }
+  
+    .ldpagina {
+      width: 100%;
+      padding: 20px;
+      box-sizing: border-box;
+    }
+  
+    .centralizadoPagina {
+      text-align: center;
+      margin-top: 20px;
+    }
+  
+    .centralizadoPagina img {
+      width: 100%;
+      height: auto;
+    }
+  }
