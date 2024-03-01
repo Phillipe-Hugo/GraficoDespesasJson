@@ -1,0 +1,57 @@
+/* Estilos para o gráfico de barras */
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  #chart-container {
+    text-align: center;
+
+  }
+  
+  h2 {
+    margin-bottom: 50px;
+  }
+  .bar {
+    fill: #3498db; /* Cor padrão das barras */
+    cursor: pointer;
+  }
+  
+  .bar:hover {
+    fill: #e74c3c; /* Cor quando o mouse passa sobre a barra */
+  }
+  
+  .bar.current {
+    fill: #2ecc71; /* Cor da barra do dia atual */
+  }
+  
+  .bar-label {
+    font-size: 12px;
+    fill: #333;
+    margin-bottom: 10px;
+  }
+  
+  .tooltip {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 5px;
+    border: 1px solid #ddd;
+    display: none;
+    margin-bottom: 10px;
+  }
+  
+.footer {
+    background-color: var(--cor-terciaria);
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid #333;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }
